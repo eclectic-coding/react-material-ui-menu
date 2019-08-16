@@ -1,6 +1,6 @@
-# Chuck Smith's developer portfolio site.
+# React Material-UI Mobile Menu.
 
-![GitHub issues](https://img.shields.io/github/issues/eclectic-coding/react-portfolio-site) ![GitHub pull requests](https://img.shields.io/github/issues-pr/eclectic-coding/react-portfolio-site) ![Twitter Follow](https://img.shields.io/twitter/follow/eclecticcoding?style=social)
+![GitHub issues](https://img.shields.io/github/issues/eclectic-coding/react-material-ui-menu) ![GitHub pull requests](https://img.shields.io/github/issues-pr/eclectic-coding/react-material-ui-menu) ![Twitter Follow](https://img.shields.io/twitter/follow/eclecticcoding?style=social)
 
 ## Available Scripts
 

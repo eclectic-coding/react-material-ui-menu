@@ -16,7 +16,7 @@ import {
 import MenuIcon from '@material-ui/icons/Menu'
 import { FaEnvelope, FaGithub } from 'react-icons/fa'
 // Components
-import profilePic from '../../images/chuck.jpg'
+import profilePic from '../../images/avatar.jpg'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -42,8 +42,7 @@ const useStyles = makeStyles(theme => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
-    zIndex: 4,
-    color: '#fff'
+    zIndex: 4
   },
   menuPaper: {
     top: 32,
@@ -89,7 +88,7 @@ function Menubar() {
         >
           <Grid container justify='center' alignItems='center'>
             <Avatar
-              alt="Chuck's profile image, just a head shot."
+              alt='Profile image, just a head shot.'
               src={profilePic}
               className={classes.avatar}
             >
@@ -98,10 +97,20 @@ function Menubar() {
           </Grid>
           <h3 className={classes.profileName}>Chuck Smith</h3>
           <span className={classes.profileEmail}>
-            <a href='mailto:chuck@eclecticsaddlebag.com' aria-label='Email me.'>
+            <a
+              href='mailto:chuck@eclecticsaddlebag.com'
+              aria-label='Email me.'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaEnvelope size={25} className={classes.icon} />
             </a>
-            <a href='https://github.com/eclecticcoding' aria-label='Email me.'>
+            <a
+              href='https://github.com/eclectic-coding'
+              aria-label='Email me.'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FaGithub size={25} className={classes.icon} />
             </a>
           </span>
@@ -111,6 +120,9 @@ function Menubar() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Link to='/projects'>Projects</Link>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Link to='/about'>About</Link>
           </MenuItem>
         </Menu>
       </Container>

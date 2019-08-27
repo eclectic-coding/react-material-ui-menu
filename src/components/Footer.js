@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
     marginTop: theme.spacing(8),
-    padding: theme.spacing(6, 0)
+    padding: theme.spacing(1, 0)
   }
 }))
 
@@ -17,9 +17,10 @@ export default function Section() {
   return (
     <React.Fragment>
       <footer className={classes.footer}>
-        <Container maxWidth='lg'>
+        <Container maxWidth='sm'>
+          <hr style={{ border: ` 1px solid #ececec` }} />
           <Typography variant='h6' align='center' gutterBottom>
-            Footer
+            Material-UI Mobile Menu
           </Typography>
           <Typography
             variant='subtitle1'
@@ -27,7 +28,7 @@ export default function Section() {
             color='textSecondary'
             component='p'
           >
-            Something here to give the footer a purpose!
+            Tutorial on Medium for Mobile Menu
           </Typography>
         </Container>
       </footer>

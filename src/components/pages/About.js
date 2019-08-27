@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 import { Container, Typography } from '@material-ui/core'
 // Components
 
-export default class Projects extends Component {
+export default class About extends Component {
   render() {
     return (
       <React.Fragment>
         <Container style={{ minHeight: `60vh` }}>
           <Typography variant='h3' align='center' gutterBottom>
-            Projects Page
+            About Page
           </Typography>
         </Container>
       </React.Fragment>

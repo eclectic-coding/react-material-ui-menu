@@ -11,17 +11,7 @@ export const linkData = [
   },
   {
     id: 3,
-    text: 'training',
-    path: '/training'
-  },
-  {
-    id: 4,
-    text: 'CV-resume',
-    path: '/resume'
-  },
-  {
-    id: 3,
-    text: 'contact',
-    path: '/contact'
+    text: 'about',
+    path: '/about'
   }
 ]
